@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	pwl "github.com/justjanne/powerline-go/powerline"
+	pwl "github.com/rafa-edreams/powerline-go/powerline"
 	"io/ioutil"
 	"os"
 	"path/filepath"

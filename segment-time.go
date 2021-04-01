@@ -1,7 +1,7 @@
 package main
 
 import (
-	pwl "github.com/justjanne/powerline-go/powerline"
+	pwl "github.com/rafa-edreams/powerline-go/powerline"
 	"time"
 )
 

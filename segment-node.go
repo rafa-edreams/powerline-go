@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	pwl "github.com/justjanne/powerline-go/powerline"
+	pwl "github.com/rafa-edreams/powerline-go/powerline"
 )
 
 const pkgfile = "./package.json"

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os/exec"
 
-	pwl "github.com/justjanne/powerline-go/powerline"
+	pwl "github.com/rafa-edreams/powerline-go/powerline"
 )
 
 func segmentPlugin(p *powerline, plugin string) ([]pwl.Segment, bool) {

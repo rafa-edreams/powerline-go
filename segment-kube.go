@@ -79,11 +79,8 @@ func segmentKube(p *powerline) []pwl.Segment {
 	if strings.HasPrefix(cluster, "gke") && p.cfg.ShortenGKENames {
 		segments := strings.Split(cluster, "_")
 		if len(segments) > 3 {
-			cluster_sub1 := segments[1]
-			cluster_sub2 := segments[3]
-			cluser_aux := []string{cluster_sub1,cluster_sub2}
-			cluster = strings.Join(cluser_aux,"-")
-			//cluster = strings.Join(segments[1], "_")
+			cluster_name_aux := []string{segments[1],segments[3]}
+			cluster = strings.Join(cluster_name_aux,"-")
 		}
 	}
 

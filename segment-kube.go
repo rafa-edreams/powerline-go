@@ -81,7 +81,7 @@ func segmentKube(p *powerline) []pwl.Segment {
 		if len(segments) > 3 {
 			cluster_sub1 := strings.Join(segments[1:], "_")
 			cluster_sub2 := strings.Join(segments[3:], "_")
-			cluster := cluster_sub1 + "-" + cluster_sub2
+			cluster = cluster_sub1 + "-" + cluster_sub2
 		}
 	}
 
